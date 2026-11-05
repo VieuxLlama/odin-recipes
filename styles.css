@@ -9,3 +9,44 @@
 * {
     color: palevioletred
 }
+
+body {
+    background-color: antiquewhite;
+}
+
+p {
+    color: rgb(177, 233, 160);
+}
+
+.header {
+    height: 100px;
+    width: 99%;
+    background-color: pink;
+    border-color: rgb(255, 252, 246);
+    border-width: 5px;
+    border-style: dashed;
+    border-radius: 25px;
+    position: fixed;
+}
+
+.title {
+    padding: 30px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+.recipe {
+    flex: 33.33%;
+    padding: 30px;
+}
+
+img {
+    border-color: rgb(177, 233, 160);
+    border-width: 5px;
+    border-style: dashed;
+    border-radius: 25px;
+}
